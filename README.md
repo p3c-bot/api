@@ -19,3 +19,28 @@ This returns a list of all of the created crops.
 GET `https://api.p3c.io/price/crop/0xB751eb15542D3fba12065A63f87E0b059c04091C`
 
 Can be called on any crop. Returns the growth in ETC/USD over a 1 day, 7 day, and 30 day period.
+
+GET `https://api.p3c.io/price/crop/`
+
+Returns prices information for all crops.
+
+## P3C Ad 
+
+GET `https://api.p3c.io/sponsor/`
+
+Returns sponsor information as raw HTML. This can be loaded into page with
+
+```
+<div class="ui horizontal segment">
+  <div id="sponsor" class="sponsor"></div>
+    <span class="ui text blue small" style="float: right"><a href="https://p3c.io/sponsor.html" target="_blank">Buy this sponsorship instantly with ETC!</a>
+    </span>
+</div>
+```
+and 
+
+`$('#sponsor').load("https://api.p3c.io/sponsor/")`
+
+
+
+
