@@ -4,9 +4,15 @@ If you have any questions please ask in the Development channel of the [Discord]
 
 ## Price Oracle
 
-GET `http://api.p3c.io/airdrop/info`
+GET `https://api.p3c.io/chart/info`
 
-This returns the current supply of P3C, the USD Price, the ETC Price, the ETC Market cap, the ETC market cap.
+This returns the current supply of P3C, the USD Price, the ETC Price, the ETC Market cap, the ETC market cap, and ETC price in USD.
+
+## Historical Price Information (for making charts)
+
+GET `https://api.p3c.io/chart/ohlc`
+
+This returns an array of the open, high, low, and close of the P3C token, denominated in USD. Measurements are made daily.
 
 ## Known Crops/Accounts
 
