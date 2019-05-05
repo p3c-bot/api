@@ -58,3 +58,14 @@ The crop address in the URL receieves 33% of the 10% community fee (3% of funds 
 GET `https://api.p3c.io/dappdirect/etc/digest`
 
 Returns a JSON array of all of the contracts, along with their 72 hour volume, balance, and unique users.
+
+## P3C.tv Get Current channel
+
+GET `https://api.p3c.io/tv/`
+Returns a JSON object with the current youtube livestream id, the tip amount in USD cents, and the crop to send it to. 
+
+## P3C.tv Change current channel
+
+GET `https://api.p3c.io/tv/use/qK9OLRbAW30`
+
+Would set the current channel on p3c.tv/watch.html to the livestream ID of `qK9OLRbAW30`. You can get the livestream ID from any youtube livestream URL by taking it off of the end https://www.youtube.com/watch?v=qK9OLRbAW30 . Livestreamer must have enabled embedding.
