@@ -68,4 +68,4 @@ Returns a JSON object with the current youtube livestream id, the tip amount in 
 
 GET `https://api.p3c.io/tv/use/qK9OLRbAW30`
 
-Would set the current channel on p3c.tv/watch.html to the livestream ID of `qK9OLRbAW30`. You can get the livestream ID from any youtube livestream URL by taking it off of the end https://www.youtube.com/watch?v=qK9OLRbAW30 . Livestreamer must have enabled embedding.
+Would set the current channel on https://p3c.tv/watch.html to the livestream ID of `qK9OLRbAW30`. You can get the livestream ID from any youtube livestream URL by taking it off of the end https://www.youtube.com/watch?v=qK9OLRbAW30 . Livestreamer must have enabled embedding.
