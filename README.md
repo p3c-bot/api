@@ -1,6 +1,6 @@
 # API
 
-If you have any questions please ask in the Development channel of the [Discord](https://discord.gg/crjsdJr). We also give airdrops to developers who are interested in building on P3C. You can also read our [Commercial Best Practices document](https://medium.com/@masterhax/p3c-io-commercial-best-practices-5e52cff29bb8) if you are looking to build an app of business on top of P3C.
+If you have any questions please ask in the Development channel of the [Discord](https://discord.gg/crjsdJr). We also give airdrops to developers who are interested in building on P3C. You can also read our [Commercial Best Practices document](https://medium.com/@masterhax/p3c-io-commercial-best-practices-5e52cff29bb8) if you are looking to build an app of business on top of P3C. Developers are also encouraged to use the P3C Pure interface (https://p3c.io/pure.html) which allows for direct connection between wallet and smart contract. [Learn more about the Pure UI](https://medium.com/@masterhax/introducing-p3c-pure-a-ui-for-exchanges-merchants-and-devs-4e150093b2d0).
 
 ## Price Oracle
 
