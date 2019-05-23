@@ -53,6 +53,8 @@ If a user goes to `https://p3c.io/use.html?ref=0x5136958e5D57fa1E282fA976a3985Ca
 
 The crop address in the URL receieves 33% of the 10% community fee (3% of funds spent to purchase new P3C). This can be used by anyone building something that links to P3C. Keep in mind, this does not affect how much P3C the user gets back, only how much goes to the community fee.
 
+The link can be created via the [Pure](https://p3c.io/pure.html) interface, and requires 1 P3C to be held in the pure account to be active. All bonuses from purchases through the link appear as dividends on the pure interface.
+
 ## DappDirect.net Ethereum Classic Smart Contract Digest 
 
 GET `https://api.p3c.io/dappdirect/etc/digest`
