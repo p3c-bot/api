@@ -66,6 +66,14 @@ Returns a JSON object with the current youtube livestream id, the tip amount in 
 
 ## P3C.tv Change current channel
 
-GET `https://api.p3c.io/tv/use/qK9OLRbAW30`
+GET `http://api.p3c.io/tv/use/fnh4V3u9lA4/0x5136958e5D57fa1E282fA976a3985Ca5B395132A/2`
 
-Would set the current channel on https://p3c.tv/watch.html to the livestream ID of `qK9OLRbAW30`. You can get the livestream ID from any youtube livestream URL by taking it off of the end https://www.youtube.com/watch?v=qK9OLRbAW30 . Livestreamer must have enabled embedding.
+GET `http://api.p3c.io/tv/use/{videoId}/{cropAddress}/{TipAmountUSDCents}`
+
+This sets the channel, tip destination, and tip amount in USD for when a user pays for a tip. Call this to change where the channel is pointing.
+
+* Would set the current channel on https://p3c.tv/ to the livestream ID of `qK9OLRbAW30`
+* When user pays tip, ETC from their wallet is converted into p3c and sent to `0x5136958e5D57fa1E282fA976a3985Ca5B395132A`
+* Every tip is `2` cents USD. 
+
+You can get the livestream ID from any youtube livestream URL by taking it off of the end https://www.youtube.com/watch?v=qK9OLRbAW30 . Livestreamer must have enabled embedding.
