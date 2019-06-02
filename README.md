@@ -1,4 +1,4 @@
-# API
+# API Documentation
 
 * If you have any questions please ask in the Development channel of the [Discord](https://discord.gg/crjsdJr). 
 * You can also read our [Commercial Best Practices document](https://medium.com/@masterhax/p3c-io-commercial-best-practices-5e52cff29bb8) if you are looking to build an app of business on top of P3C. 
