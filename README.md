@@ -82,7 +82,7 @@ This sets the channel, tip destination, and tip amount in USD for when a user pa
 * Every tip is `2` cents USD. 
 * When user pays tip, ETC from their wallet is converted into p3c and 50% is sent to `0x5136958e5D57fa1E282fA976a3985Ca5B395132A` and 50% is sent back ot them.
 
-You can get the livestream ID from any youtube livestream URL by taking it off of the end https://www.youtube.com/watch?v=qK9OLRbAW30 . Livestreamer must have enabled embedding.
+You can get the livestream ID from any youtube livestream URL by taking it off of the end https://www.youtube.com/watch?v=qK9OLRbAW30 👈. Livestreamer must have enabled embedding.
 
 ## P3C.tv - Create a Tippable Link
 
