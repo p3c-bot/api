@@ -8,7 +8,7 @@ We also give airdrops to developers who are interested in building on P3C.
 
 ## Price Oracle
 
-GET `https://api.p3c.io/chart/info`
+GET `https://api.commonwealth.gg/chart/info`
 
 This returns the current supply of P3C, the USD Price, the ETC Price, the ETC Market cap, the ETC market cap, and ETC price in USD.
 
@@ -17,6 +17,10 @@ This returns the current supply of P3C, the USD Price, the ETC Price, the ETC Ma
 GET `https://api.p3c.io/chart/ohlc`
 
 This returns an array of the open, high, low, and close of the P3C token, denominated in USD. Measurements are made daily.
+
+GET `https://api.p3c.io/chart/ohlc/90`
+
+This returns the prices over the past N Days - you can replace 90 with whatever day amount you would like. 
 
 ## Known Crops/Accounts
 
@@ -64,6 +68,13 @@ The link can be created via the [Pure](https://p3c.io/pure.html) interface, and 
 GET `https://api.p3c.io/dappdirect/etc/digest`
 
 Returns a JSON array of all of the contracts, along with their 72 hour volume, balance, and unique users.
+
+## Commonwealth Country
+
+GET `https://api.commonwealth.gg/planet/coord/0xA460ce2C10d959251792D72b7E2B3EC684F013f1`
+
+Returns a Coordiante for a random palce on earth based on the seed of the Address. Can be used to create country games or used as an account system. Callable from Web3.js 
+
 
 ## P3C.tv Get Current channel
 
